@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { SerggioComponent } from "../../serggio/serggio.component";
+import { SebastianPComponent } from '../../sebastian-p/sebastian-p.component';
 
 @Component({
   selector: 'app-welcome',
   standalone: true,
   templateUrl: './welcome.component.html',
   styleUrls: ['./welcome.component.css'],
-  imports: [SerggioComponent]
+  imports: [SebastianPComponent],
 })
 export class WelcomeComponent implements OnInit {
 
