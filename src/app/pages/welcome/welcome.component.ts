@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { SwitchPauComponent } from '../../switch-pau/switch-pau.component';
+import { NzSliderModule } from 'ng-zorro-antd/slider';
+import { SliderComponent } from "../../slider/slider.component";
 
 @Component({
   selector: 'app-welcome',
   standalone: true,
-  imports:[SwitchPauComponent],
   templateUrl: './welcome.component.html',
-  styleUrls: ['./welcome.component.css']
+  styleUrls: ['./welcome.component.css'],
+  imports: [NzSliderModule, SliderComponent]
 })
 export class WelcomeComponent implements OnInit {
 
