@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { NzRateModule } from 'ng-zorro-antd/rate';
 
 @Component({
-  selector: 'app-gabriel',
+  selector: 'app-gabriell',
   standalone: true,
   imports: [FormsModule, NzRateModule],
-  templateUrl: './gabriel.component.html'
+  templateUrl: './gabriell.component.html'
 })
-export class GabrielComponent {}
+export class GabriellComponent {}
